@@ -1,0 +1,38 @@
+body{
+background-image:url(../image/banner.png) ;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+min-height: 100vh;
+}
+.do_list{
+    width: 350px;
+    height: 40px;background: transparent;
+    border: 2px solid yellowgreen;
+}
+.to_in{
+    width: 250px;
+    padding: 7px;
+    outline: 0;
+
+}
+
+.todo_del{
+    background: red;
+    border: none;
+    border-radius: 5px;
+}
+.todo_input{
+    width: 270px;
+    height: 30px;
+}
+
+.todo_card{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid yellowgreen;
+}
